@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF671EB32B86146A00BB00F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF671EB22B86146A00BB00F4 /* AppDelegate.swift */; };
+		DF671EB52B86146A00BB00F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF671EB42B86146A00BB00F4 /* SceneDelegate.swift */; };
+		DF671EB72B86146A00BB00F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF671EB62B86146A00BB00F4 /* ViewController.swift */; };
+		DF671EBA2B86146A00BB00F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF671EB82B86146A00BB00F4 /* Main.storyboard */; };
+		DF671EBD2B86146A00BB00F4 /* PawPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF671EBB2B86146A00BB00F4 /* PawPal.xcdatamodeld */; };
+		DF671EBF2B86147700BB00F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF671EBE2B86147700BB00F4 /* Assets.xcassets */; };
+		DF671EC22B86147700BB00F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF671EC02B86147700BB00F4 /* LaunchScreen.storyboard */; };
+		DF671ECD2B86147700BB00F4 /* PawPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF671ECC2B86147700BB00F4 /* PawPalTests.swift */; };
+		DF671ED72B86147700BB00F4 /* PawPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF671ED62B86147700BB00F4 /* PawPalUITests.swift */; };
+		DF671ED92B86147700BB00F4 /* PawPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF671ED82B86147700BB00F4 /* PawPalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF671EC92B86147700BB00F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF671EA72B86146A00BB00F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF671EAE2B86146A00BB00F4;
+			remoteInfo = PawPal;
+		};
+		DF671ED32B86147700BB00F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF671EA72B86146A00BB00F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF671EAE2B86146A00BB00F4;
+			remoteInfo = PawPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF671EAF2B86146A00BB00F4 /* PawPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF671EB22B86146A00BB00F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF671EB42B86146A00BB00F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF671EB62B86146A00BB00F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF671EB92B86146A00BB00F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF671EBC2B86146A00BB00F4 /* PawPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PawPal.xcdatamodel; sourceTree = "<group>"; };
+		DF671EBE2B86147700BB00F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF671EC12B86147700BB00F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF671EC32B86147700BB00F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF671EC82B86147700BB00F4 /* PawPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF671ECC2B86147700BB00F4 /* PawPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPalTests.swift; sourceTree = "<group>"; };
+		DF671ED22B86147700BB00F4 /* PawPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF671ED62B86147700BB00F4 /* PawPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPalUITests.swift; sourceTree = "<group>"; };
+		DF671ED82B86147700BB00F4 /* PawPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF671EAC2B86146A00BB00F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF671EC52B86147700BB00F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF671ECF2B86147700BB00F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF671EA62B86146A00BB00F4 = {
+			isa = PBXGroup;
+			children = (
+				DF671EB12B86146A00BB00F4 /* PawPal */,
+				DF671ECB2B86147700BB00F4 /* PawPalTests */,
+				DF671ED52B86147700BB00F4 /* PawPalUITests */,
+				DF671EB02B86146A00BB00F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF671EB02B86146A00BB00F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF671EAF2B86146A00BB00F4 /* PawPal.app */,
+				DF671EC82B86147700BB00F4 /* PawPalTests.xctest */,
+				DF671ED22B86147700BB00F4 /* PawPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF671EB12B86146A00BB00F4 /* PawPal */ = {
+			isa = PBXGroup;
+			children = (
+				DF671EB22B86146A00BB00F4 /* AppDelegate.swift */,
+				DF671EB42B86146A00BB00F4 /* SceneDelegate.swift */,
+				DF671EB62B86146A00BB00F4 /* ViewController.swift */,
+				DF671EB82B86146A00BB00F4 /* Main.storyboard */,
+				DF671EBE2B86147700BB00F4 /* Assets.xcassets */,
+				DF671EC02B86147700BB00F4 /* LaunchScreen.storyboard */,
+				DF671EC32B86147700BB00F4 /* Info.plist */,
+				DF671EBB2B86146A00BB00F4 /* PawPal.xcdatamodeld */,
+			);
+			path = PawPal;
+			sourceTree = "<group>";
+		};
+		DF671ECB2B86147700BB00F4 /* PawPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF671ECC2B86147700BB00F4 /* PawPalTests.swift */,
+			);
+			path = PawPalTests;
+			sourceTree = "<group>";
+		};
+		DF671ED52B86147700BB00F4 /* PawPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF671ED62B86147700BB00F4 /* PawPalUITests.swift */,
+				DF671ED82B86147700BB00F4 /* PawPalUITestsLaunchTests.swift */,
+			);
+			path = PawPalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF671EAE2B86146A00BB00F4 /* PawPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF671EDC2B86147700BB00F4 /* Build configuration list for PBXNativeTarget "PawPal" */;
+			buildPhases = (
+				DF671EAB2B86146A00BB00F4 /* Sources */,
+				DF671EAC2B86146A00BB00F4 /* Frameworks */,
+				DF671EAD2B86146A00BB00F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PawPal;
+			productName = PawPal;
+			productReference = DF671EAF2B86146A00BB00F4 /* PawPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF671EC72B86147700BB00F4 /* PawPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF671EDF2B86147700BB00F4 /* Build configuration list for PBXNativeTarget "PawPalTests" */;
+			buildPhases = (
+				DF671EC42B86147700BB00F4 /* Sources */,
+				DF671EC52B86147700BB00F4 /* Frameworks */,
+				DF671EC62B86147700BB00F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF671ECA2B86147700BB00F4 /* PBXTargetDependency */,
+			);
+			name = PawPalTests;
+			productName = PawPalTests;
+			productReference = DF671EC82B86147700BB00F4 /* PawPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF671ED12B86147700BB00F4 /* PawPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF671EE22B86147700BB00F4 /* Build configuration list for PBXNativeTarget "PawPalUITests" */;
+			buildPhases = (
+				DF671ECE2B86147700BB00F4 /* Sources */,
+				DF671ECF2B86147700BB00F4 /* Frameworks */,
+				DF671ED02B86147700BB00F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF671ED42B86147700BB00F4 /* PBXTargetDependency */,
+			);
+			name = PawPalUITests;
+			productName = PawPalUITests;
+			productReference = DF671ED22B86147700BB00F4 /* PawPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF671EA72B86146A00BB00F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DF671EAE2B86146A00BB00F4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DF671EC72B86147700BB00F4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DF671EAE2B86146A00BB00F4;
+					};
+					DF671ED12B86147700BB00F4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DF671EAE2B86146A00BB00F4;
+					};
+				};
+			};
+			buildConfigurationList = DF671EAA2B86146A00BB00F4 /* Build configuration list for PBXProject "PawPal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF671EA62B86146A00BB00F4;
+			productRefGroup = DF671EB02B86146A00BB00F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF671EAE2B86146A00BB00F4 /* PawPal */,
+				DF671EC72B86147700BB00F4 /* PawPalTests */,
+				DF671ED12B86147700BB00F4 /* PawPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF671EAD2B86146A00BB00F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF671EC22B86147700BB00F4 /* LaunchScreen.storyboard in Resources */,
+				DF671EBF2B86147700BB00F4 /* Assets.xcassets in Resources */,
+				DF671EBA2B86146A00BB00F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF671EC62B86147700BB00F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF671ED02B86147700BB00F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF671EAB2B86146A00BB00F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF671EBD2B86146A00BB00F4 /* PawPal.xcdatamodeld in Sources */,
+				DF671EB72B86146A00BB00F4 /* ViewController.swift in Sources */,
+				DF671EB32B86146A00BB00F4 /* AppDelegate.swift in Sources */,
+				DF671EB52B86146A00BB00F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF671EC42B86147700BB00F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF671ECD2B86147700BB00F4 /* PawPalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF671ECE2B86147700BB00F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF671ED72B86147700BB00F4 /* PawPalUITests.swift in Sources */,
+				DF671ED92B86147700BB00F4 /* PawPalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF671ECA2B86147700BB00F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF671EAE2B86146A00BB00F4 /* PawPal */;
+			targetProxy = DF671EC92B86147700BB00F4 /* PBXContainerItemProxy */;
+		};
+		DF671ED42B86147700BB00F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF671EAE2B86146A00BB00F4 /* PawPal */;
+			targetProxy = DF671ED32B86147700BB00F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF671EB82B86146A00BB00F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF671EB92B86146A00BB00F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF671EC02B86147700BB00F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF671EC12B86147700BB00F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF671EDA2B86147700BB00F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF671EDB2B86147700BB00F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF671EDD2B86147700BB00F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PawPal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PawPal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.PawPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF671EDE2B86147700BB00F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PawPal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PawPal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.PawPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF671EE02B86147700BB00F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.PawPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PawPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PawPal";
+			};
+			name = Debug;
+		};
+		DF671EE12B86147700BB00F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.PawPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PawPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PawPal";
+			};
+			name = Release;
+		};
+		DF671EE32B86147700BB00F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.PawPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PawPal;
+			};
+			name = Debug;
+		};
+		DF671EE42B86147700BB00F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.PawPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PawPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF671EAA2B86146A00BB00F4 /* Build configuration list for PBXProject "PawPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF671EDA2B86147700BB00F4 /* Debug */,
+				DF671EDB2B86147700BB00F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF671EDC2B86147700BB00F4 /* Build configuration list for PBXNativeTarget "PawPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF671EDD2B86147700BB00F4 /* Debug */,
+				DF671EDE2B86147700BB00F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF671EDF2B86147700BB00F4 /* Build configuration list for PBXNativeTarget "PawPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF671EE02B86147700BB00F4 /* Debug */,
+				DF671EE12B86147700BB00F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF671EE22B86147700BB00F4 /* Build configuration list for PBXNativeTarget "PawPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF671EE32B86147700BB00F4 /* Debug */,
+				DF671EE42B86147700BB00F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF671EBB2B86146A00BB00F4 /* PawPal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF671EBC2B86146A00BB00F4 /* PawPal.xcdatamodel */,
+			);
+			currentVersion = DF671EBC2B86146A00BB00F4 /* PawPal.xcdatamodel */;
+			path = PawPal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF671EA72B86146A00BB00F4 /* Project object */;
+}
