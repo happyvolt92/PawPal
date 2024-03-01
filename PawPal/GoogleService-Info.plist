@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCfKKhk5nYc-kwnhsUO4cxnz_hUD_7KNeE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>311532763572</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>NeptuneDevelopment.PawPal</string>
+	<key>PROJECT_ID</key>
+	<string>pawpal-cd3e4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pawpal-cd3e4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:311532763572:ios:af6ba4eef1dd7a558f5ae1</string>
+</dict>
+</plist>
