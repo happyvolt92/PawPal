@@ -16,14 +16,14 @@ class HomeViewController: UIViewController {
 
 
     // Connectez ces IBActions à vos boutons dans le storyboard
-    @IBAction func loginButtonTapped(_ sender: UIButton) {
+    @IBAction func logInButtonTapped(_ sender: UIButton) {
         // Déclencher la transition vers l'écran de connexion
-        performSegue(withIdentifier: "loginSegue", sender: self)
+        performSegue(withIdentifier: "LogIn", sender: self)
     }
 
     @IBAction func signInButtonTapped(_ sender: UIButton) {
         // Déclencher la transition vers l'écran d'inscription
-        performSegue(withIdentifier: "signInSegue", sender: self)
+        performSegue(withIdentifier: "Sign In", sender: self)
     }
 }
 
