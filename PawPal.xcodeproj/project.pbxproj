@@ -22,6 +22,8 @@
 		DF671EF42B86216000BB00F4 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = DF671EF32B86216000BB00F4 /* FirebaseAppCheck */; };
 		DF671EF62B86216000BB00F4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DF671EF52B86216000BB00F4 /* FirebaseAuth */; };
 		DF671EF82B86216000BB00F4 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DF671EF72B86216000BB00F4 /* FirebaseCrashlytics */; };
+		DFBC7F932BA88F4100F36D3E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC7F922BA88F4100F36D3E /* SearchViewController.swift */; };
+		DFBC7F952BA891C600F36D3E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC7F942BA891C600F36D3E /* ProfileViewController.swift */; };
 		DFF5E1A12B9212E200D2221B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF5E1A02B9212E200D2221B /* LaunchScreen.storyboard */; };
 		DFF5E1A32B923E4A00D2221B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFF5E1A22B923E4A00D2221B /* GoogleService-Info.plist */; };
 		DFF5E1A52B92407100D2221B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5E1A42B92407100D2221B /* LogInViewController.swift */; };
@@ -60,6 +62,8 @@
 		DF671ED22B86147700BB00F4 /* PawPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF671ED62B86147700BB00F4 /* PawPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPalUITests.swift; sourceTree = "<group>"; };
 		DF671ED82B86147700BB00F4 /* PawPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFBC7F922BA88F4100F36D3E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DFBC7F942BA891C600F36D3E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DFF5E1A02B9212E200D2221B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFF5E1A22B923E4A00D2221B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DFF5E1A42B92407100D2221B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +175,8 @@
 				DFF5E1A42B92407100D2221B /* LogInViewController.swift */,
 				DFF5E1A72B9240A900D2221B /* SignInViewController.swift */,
 				DF505F242B9336BF0013AF50 /* WalkPreferencesController.swift */,
+				DFBC7F922BA88F4100F36D3E /* SearchViewController.swift */,
+				DFBC7F942BA891C600F36D3E /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -360,9 +366,11 @@
 			files = (
 				DF505F252B9336BF0013AF50 /* WalkPreferencesController.swift in Sources */,
 				DF671EBD2B86146A00BB00F4 /* PawPal.xcdatamodeld in Sources */,
+				DFBC7F932BA88F4100F36D3E /* SearchViewController.swift in Sources */,
 				DF671EB72B86146A00BB00F4 /* HomeViewController.swift in Sources */,
 				DFF5E1A82B9240A900D2221B /* SignInViewController.swift in Sources */,
 				DF671EB32B86146A00BB00F4 /* AppDelegate.swift in Sources */,
+				DFBC7F952BA891C600F36D3E /* ProfileViewController.swift in Sources */,
 				DFF5E1A52B92407100D2221B /* LogInViewController.swift in Sources */,
 				DF671EB52B86146A00BB00F4 /* SceneDelegate.swift in Sources */,
 			);
