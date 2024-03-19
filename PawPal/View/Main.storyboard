@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Search View Controller-->
+        <!--Search-->
         <scene sceneID="DA3-5V-ghA">
             <objects>
-                <viewController id="LJ3-KW-juv" customClass="SearchViewController" customModule="PawPal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LJ3-KW-juv" userLabel="Search" customClass="SearchViewController" customModule="PawPal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="THg-fo-9rJ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,6 +39,9 @@
                                         <buttonConfiguration key="configuration" style="filled" image="plus" catalog="system">
                                             <color key="baseBackgroundColor" red="0.93333333730000001" green="0.53333336109999996" blue="0.4352940917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="D5c-Zm-ai0" kind="show" id="mPs-sI-ewy"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -69,10 +72,10 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Hds-rh-5q1">
-                                                <rect key="frame" x="0.0" y="12.333333333333334" width="128" height="127.99999999999999"/>
+                                                <rect key="frame" x="0.0" y="12.333333333333334" width="128" height="127.99999999999997"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="uol-M4-gZW">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="127.99999999999999"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="127.99999999999997"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </collectionViewCellContentView>
                                             </collectionViewCell>
@@ -129,7 +132,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="vku-EF-YMx"/>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAv-RJ-4pc">
-                                <rect key="frame" x="137" y="696" width="117" height="46"/>
+                                <rect key="frame" x="137" y="696" width="117" height="33.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Rechercher">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
@@ -142,9 +145,9 @@
                         <constraints>
                             <constraint firstItem="vPd-MW-TKK" firstAttribute="top" secondItem="oyh-0X-qac" secondAttribute="bottom" constant="8.0000000000000568" id="4pc-6f-Jzi"/>
                             <constraint firstItem="1qo-ZW-CKC" firstAttribute="top" secondItem="dzg-cn-09j" secondAttribute="bottom" constant="8.0000000000000284" id="55z-V3-MID"/>
+                            <constraint firstItem="mAv-RJ-4pc" firstAttribute="top" secondItem="vPd-MW-TKK" secondAttribute="bottom" constant="70.333333333333258" id="6Sn-R1-6ai"/>
                             <constraint firstItem="XYr-oa-pEE" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oyh-0X-qac" secondAttribute="trailing" symbolic="YES" id="AUZ-D3-o1G"/>
                             <constraint firstItem="M2q-MW-Kf9" firstAttribute="leading" secondItem="dzg-cn-09j" secondAttribute="leading" id="KmB-Qp-PVa"/>
-                            <constraint firstItem="mAv-RJ-4pc" firstAttribute="top" secondItem="vPd-MW-TKK" secondAttribute="bottom" constant="70.333333333333258" id="Oc0-FJ-p1Q"/>
                             <constraint firstItem="oyh-0X-qac" firstAttribute="leading" secondItem="1qo-ZW-CKC" secondAttribute="leading" id="PQr-nx-Fju"/>
                             <constraint firstItem="M2q-MW-Kf9" firstAttribute="top" secondItem="XYr-oa-pEE" secondAttribute="top" constant="31" id="UKo-qx-Ntl"/>
                             <constraint firstItem="mAv-RJ-4pc" firstAttribute="centerX" secondItem="vPd-MW-TKK" secondAttribute="centerX" id="ZYp-yk-65z"/>
@@ -154,20 +157,40 @@
                             <constraint firstItem="XYr-oa-pEE" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dzg-cn-09j" secondAttribute="trailing" symbolic="YES" id="jRq-UD-v0g"/>
                             <constraint firstItem="M2q-MW-Kf9" firstAttribute="leading" secondItem="XYr-oa-pEE" secondAttribute="leading" constant="37" id="jmh-fk-Fe4"/>
                             <constraint firstItem="XYr-oa-pEE" firstAttribute="trailing" secondItem="M2q-MW-Kf9" secondAttribute="trailing" constant="56" id="mbE-dJ-yD5"/>
-                            <constraint firstItem="XYr-oa-pEE" firstAttribute="bottom" secondItem="mAv-RJ-4pc" secondAttribute="bottom" constant="76" id="uRV-hN-xgz"/>
                             <constraint firstAttribute="bottom" secondItem="1qo-ZW-CKC" secondAttribute="bottom" constant="470" id="yyc-jR-xGX"/>
                             <constraint firstItem="mAv-RJ-4pc" firstAttribute="leading" secondItem="XYr-oa-pEE" secondAttribute="leading" constant="137" id="zjP-qq-OFa"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Walk" id="Onp-LD-NQ9" userLabel="Walk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="URG-db-YPb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="275.57251908396944" y="2310.5633802816901"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="DhE-L1-FnH">
+            <objects>
+                <tabBarController id="Uyq-bM-aNz" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cZ4-mM-LAj">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.93333333730000001" green="0.53333336109999996" blue="0.4352940917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <tabBarAppearance key="standardAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LJ3-KW-juv" kind="relationship" relationship="viewControllers" destinationCreationSelector="Search" id="vM1-qS-iYt"/>
+                        <segue destination="OxT-Wq-7Iq" kind="relationship" relationship="viewControllers" destinationCreationSelector="Profile" id="beF-e8-nmN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="koA-A6-Y91" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="998" y="1632"/>
+        </scene>
+        <!--Profile-->
         <scene sceneID="djG-36-BkQ">
             <objects>
-                <viewController id="OxT-Wq-7Iq" customClass="ProfileViewController" customModule="PawPal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="OxT-Wq-7Iq" userLabel="Profile" customClass="ProfileViewController" customModule="PawPal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wL2-oK-53I">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -311,6 +334,7 @@
                             <constraint firstItem="HUa-Mk-pbO" firstAttribute="top" secondItem="wL2-oK-53I" secondAttribute="top" constant="333" id="xnH-sK-594"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.crop.circle.fill" catalog="system" id="iIf-4w-ddp" userLabel="Profile"/>
                     <navigationItem key="navigationItem" id="Ccc-14-WHn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wEf-OD-Mo4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -322,7 +346,7 @@
             <objects>
                 <viewController id="D5c-Zm-ai0" customClass="MapViewController" customModule="PawPal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OAy-J1-KA1">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G9N-mF-iyT">
@@ -345,6 +369,7 @@
         <image name="chevron.right" catalog="system" width="97" height="128"/>
         <image name="dogWalk" width="512" height="512"/>
         <image name="person.circle" catalog="system" width="128" height="123"/>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
