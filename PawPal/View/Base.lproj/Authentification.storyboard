@@ -3,8 +3,6 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
-        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -507,182 +505,6 @@
             </objects>
             <point key="canvasLocation" x="176.33587786259542" y="1389.4366197183099"/>
         </scene>
-        <!--Map View Controller-->
-        <scene sceneID="A2M-EW-aNT">
-            <objects>
-                <viewController id="tbm-EF-qVu" customClass="MapViewController" customModule="PawPal" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ogO-dT-xpq">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GGS-ib-5AI">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <standardMapConfiguration key="preferredConfiguration"/>
-                            </mapView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="bY3-h7-Pz7"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="aq7-dW-3Ww"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="U9D-0n-3LQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="276" y="3025"/>
-        </scene>
-        <!--Profile View Controller-->
-        <scene sceneID="8Uq-yg-0fi">
-            <objects>
-                <viewController id="j6z-za-5CA" customClass="ProfileViewController" customModule="PawPal" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SoI-pA-PPi">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="nek-fX-bdS" userLabel="NextWalkStack View">
-                                <rect key="frame" x="40" y="200" width="300" height="50"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dogWalk" translatesAutoresizingMaskIntoConstraints="NO" id="qIo-Xr-4s0">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="k9Q-IO-QF0" userLabel="width = 70"/>
-                                        </constraints>
-                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prochaine Ballade" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISP-1p-pUg" userLabel="Prochaine.s Ballade.s Prévue">
-                                        <rect key="frame" x="95" y="0.0" width="146" height="50"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1PD-jy-I1c" userLabel="NextWalk">
-                                        <rect key="frame" x="256" y="0.0" width="44" height="50"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
-                                            <imageReference key="image" image="chevron.right" catalog="system" symbolScale="default"/>
-                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
-                                            <color key="baseBackgroundColor" red="0.93333333730000001" green="0.53333336109999996" blue="0.4352940917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.93333333730000001" green="0.53333336109999996" blue="0.4352940917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="fBX-mP-kMa"/>
-                                    <constraint firstAttribute="height" constant="50" id="hZR-Im-nKi"/>
-                                </constraints>
-                            </stackView>
-                            <stackView contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" distribution="equalSpacing" alignment="center" spacing="160" translatesAutoresizingMaskIntoConstraints="NO" id="nsB-w6-dIl" userLabel="TopProfileStack View">
-                                <rect key="frame" x="60" y="21" width="313.33333333333331" height="80"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="qOT-5K-B1W" userLabel="HelloNameStack View">
-                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="80"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kul-mM-YE7">
-                                                <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="26.333333333333332"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJy-D8-ZMB">
-                                                <rect key="frame" x="0.0" y="40.333333333333343" width="103.66666666666667" height="39.666666666666657"/>
-                                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="38"/>
-                                                <color key="textColor" red="0.93333333730000001" green="0.53333336109999996" blue="0.4352940917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <button opaque="NO" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UR6-c4-o40" userLabel="ProfileSettingsMenu">
-                                        <rect key="frame" x="263.66666666666669" y="23.000000000000004" width="49.666666666666686" height="34.333333333333343"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="34.333333333333343" id="rsU-GS-G5I" userLabel="height = 80"/>
-                                        </constraints>
-                                        <color key="tintColor" red="0.93333333730000001" green="0.53333336109999996" blue="0.4352940917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" image="person.circle" catalog="system" imagePadding="0.0" cornerStyle="dynamic">
-                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
-                                            <color key="baseBackgroundColor" red="0.83137255909999996" green="0.69411766529999996" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="HpM-aZ-Hxf"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ths-Qa-NV7" userLabel="SeeFavoriteStackView">
-                                <rect key="frame" x="46" y="333" width="280" height="120"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DK9-Zh-VbZ" userLabel="SeeFavoritesPawPalButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="130" height="120"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="PawPal Favoris 🔥" cornerStyle="large" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="21"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" red="0.86881546811134014" green="0.64798675733178257" blue="0.65850310437687321" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pii-OO-4mI" userLabel="SeeFavoritesWalkButton">
-                                        <rect key="frame" x="150" y="0.0" width="130" height="120"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Ballades Préféré.es 🌟" cornerStyle="large" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="20"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" red="0.79600254175680518" green="0.92941176889999999" blue="0.92100513733084488" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="4Ra-aL-cwk"/>
-                                    <constraint firstAttribute="width" constant="280" id="eas-oD-a0b"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="F6Q-IY-KCN" userLabel="SeeLastStack View">
-                                <rect key="frame" x="46" y="509" width="280" height="120"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtk-Zo-1A1" userLabel="SeeLastPawPalMetButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="130" height="120"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Dernier PawPal 🐾" cornerStyle="large" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="22"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" red="0.77220507074872746" green="0.72601259428572718" blue="0.89181298324742264" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lve-Sw-vXk" userLabel="SeeLastWalkButton">
-                                        <rect key="frame" x="150" y="0.0" width="130" height="120"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Ballades Passées 🕰️" cornerStyle="large" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="23"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" red="0.83137255909999996" green="0.69411766529999996" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="azi-0Q-iNI"/>
-                                    <constraint firstAttribute="height" constant="120" id="fQx-Lb-mB0"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="a3c-1E-aPD"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <color key="tintColor" red="0.83137255909999996" green="0.69411766529999996" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="Ths-Qa-NV7" firstAttribute="top" secondItem="nek-fX-bdS" secondAttribute="bottom" constant="83" id="0oM-gF-zOb"/>
-                            <constraint firstItem="nsB-w6-dIl" firstAttribute="leading" secondItem="a3c-1E-aPD" secondAttribute="leading" constant="60" id="G2J-7b-t5a"/>
-                            <constraint firstItem="F6Q-IY-KCN" firstAttribute="top" secondItem="Ths-Qa-NV7" secondAttribute="bottom" constant="56" id="GLV-JU-OUz"/>
-                            <constraint firstItem="Ths-Qa-NV7" firstAttribute="top" secondItem="SoI-pA-PPi" secondAttribute="top" constant="333" id="e8K-GL-HPm"/>
-                            <constraint firstItem="nek-fX-bdS" firstAttribute="leading" secondItem="a3c-1E-aPD" secondAttribute="leading" constant="40" id="eQS-wr-W8c"/>
-                            <constraint firstItem="Ths-Qa-NV7" firstAttribute="leading" secondItem="F6Q-IY-KCN" secondAttribute="leading" id="gek-Mj-YEF"/>
-                            <constraint firstItem="nsB-w6-dIl" firstAttribute="top" secondItem="a3c-1E-aPD" secondAttribute="top" constant="21" id="hky-rG-WDm"/>
-                            <constraint firstItem="Ths-Qa-NV7" firstAttribute="leading" secondItem="a3c-1E-aPD" secondAttribute="leading" constant="46" id="qLv-FM-FPK"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="7V0-4n-APA"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="G51-6A-U9j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1603.8167938931297" y="2310.5633802816901"/>
-        </scene>
         <!--Log In View Controller-->
         <scene sceneID="jiX-PL-4WE">
             <objects>
@@ -749,11 +571,6 @@
                                     <color key="baseForegroundColor" red="0.83137255909999996" green="0.69411766529999996" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="j6z-za-5CA" kind="popoverPresentation" popoverAnchorView="E11-ov-JdT" id="Uqu-da-J0P">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="t78-JB-e1H"/>
@@ -782,11 +599,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="chevron.right" catalog="system" width="97" height="128"/>
         <image name="chienexterieuattendre-removebg-preview" width="433" height="577"/>
-        <image name="dogWalk" width="512" height="512"/>
         <image name="logo copie" width="564" height="442"/>
-        <image name="person.circle" catalog="system" width="128" height="123"/>
         <image name="photo.badge.plus.fill" catalog="system" width="128" height="97"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

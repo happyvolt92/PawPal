@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DF4F88E42BA99447002E3CBD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4F88E32BA99447002E3CBD /* MapViewController.swift */; };
+		DF4F88E62BA9A060002E3CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4F88E52BA9A060002E3CBD /* Main.storyboard */; };
+		DF4F88E82BA9A402002E3CBD /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DF4F88E72BA9A402002E3CBD /* Localizable.xcstrings */; };
 		DF505F252B9336BF0013AF50 /* WalkPreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF505F242B9336BF0013AF50 /* WalkPreferencesController.swift */; };
 		DF671EB32B86146A00BB00F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF671EB22B86146A00BB00F4 /* AppDelegate.swift */; };
 		DF671EB52B86146A00BB00F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF671EB42B86146A00BB00F4 /* SceneDelegate.swift */; };
 		DF671EB72B86146A00BB00F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF671EB62B86146A00BB00F4 /* HomeViewController.swift */; };
-		DF671EBA2B86146A00BB00F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF671EB82B86146A00BB00F4 /* Main.storyboard */; };
+		DF671EBA2B86146A00BB00F4 /* Authentification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF671EB82B86146A00BB00F4 /* Authentification.storyboard */; };
 		DF671EBD2B86146A00BB00F4 /* PawPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF671EBB2B86146A00BB00F4 /* PawPal.xcdatamodeld */; };
 		DF671EBF2B86147700BB00F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF671EBE2B86147700BB00F4 /* Assets.xcassets */; };
 		DF671ECD2B86147700BB00F4 /* PawPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF671ECC2B86147700BB00F4 /* PawPalTests.swift */; };
@@ -50,12 +52,14 @@
 
 /* Begin PBXFileReference section */
 		DF4F88E32BA99447002E3CBD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DF4F88E52BA9A060002E3CBD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DF4F88E72BA9A402002E3CBD /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		DF505F242B9336BF0013AF50 /* WalkPreferencesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPreferencesController.swift; sourceTree = "<group>"; };
 		DF671EAF2B86146A00BB00F4 /* PawPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF671EB22B86146A00BB00F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF671EB42B86146A00BB00F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DF671EB62B86146A00BB00F4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		DF671EB92B86146A00BB00F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF671EB92B86146A00BB00F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authentification.storyboard; sourceTree = "<group>"; };
 		DF671EBC2B86146A00BB00F4 /* PawPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PawPal.xcdatamodel; sourceTree = "<group>"; };
 		DF671EBE2B86147700BB00F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF671EC32B86147700BB00F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 		DF671EA62B86146A00BB00F4 = {
 			isa = PBXGroup;
 			children = (
+				DF4F88E72BA9A402002E3CBD /* Localizable.xcstrings */,
 				DF671EB12B86146A00BB00F4 /* PawPal */,
 				DF671ECB2B86147700BB00F4 /* PawPalTests */,
 				DF671ED52B86147700BB00F4 /* PawPalUITests */,
@@ -157,7 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				DFF5E1A02B9212E200D2221B /* LaunchScreen.storyboard */,
-				DF671EB82B86146A00BB00F4 /* Main.storyboard */,
+				DF671EB82B86146A00BB00F4 /* Authentification.storyboard */,
+				DF4F88E52BA9A060002E3CBD /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -313,11 +319,11 @@
 			};
 			buildConfigurationList = DF671EAA2B86146A00BB00F4 /* Build configuration list for PBXProject "PawPal" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = fr;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				fr,
 			);
 			mainGroup = DF671EA62B86146A00BB00F4;
 			packageReferences = (
@@ -341,8 +347,10 @@
 			files = (
 				DF671EBF2B86147700BB00F4 /* Assets.xcassets in Resources */,
 				DFF5E1A32B923E4A00D2221B /* GoogleService-Info.plist in Resources */,
+				DF4F88E82BA9A402002E3CBD /* Localizable.xcstrings in Resources */,
 				DFF5E1A12B9212E200D2221B /* LaunchScreen.storyboard in Resources */,
-				DF671EBA2B86146A00BB00F4 /* Main.storyboard in Resources */,
+				DF4F88E62BA9A060002E3CBD /* Main.storyboard in Resources */,
+				DF671EBA2B86146A00BB00F4 /* Authentification.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,12 +421,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF671EB82B86146A00BB00F4 /* Main.storyboard */ = {
+		DF671EB82B86146A00BB00F4 /* Authentification.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DF671EB92B86146A00BB00F4 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Authentification.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -556,6 +564,9 @@
 				INFOPLIST_FILE = PawPal/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PawPal;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "we need to access to your media library so you can upload a picture of your dog";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to use your location to find pawpal nearby you";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Enable Speech recognition for accessibilty";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -591,6 +602,9 @@
 				INFOPLIST_FILE = PawPal/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PawPal;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "we need to access to your media library so you can upload a picture of your dog";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to use your location to find pawpal nearby you";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Enable Speech recognition for accessibilty";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

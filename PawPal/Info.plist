@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>Enable Speech recognition for accessibilty</string>
-	<key>NSUserNotificationsUsageDescription</key>
-	<string>Enable notification so you can be aware of walks, messages and canceled walk</string>
-	<key>NSAppleMusicUsageDescription</key>
-	<string>we need to access to your media library so you can upload a picture of your dog</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We need to use your location to find pawpal nearby you</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -26,6 +18,8 @@
 		<string>MKDirectionsModePedestrian</string>
 		<string>MKDirectionsModeRideShare</string>
 	</array>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Enable notification so you can be aware of walks, messages and canceled walk</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
